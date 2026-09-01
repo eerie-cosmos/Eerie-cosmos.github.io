@@ -6,6 +6,7 @@ permalink: /projects/
 
 # Selected Projects
 
+
 My work has progressively converged to physically grounded robotics perception, geometric 3D vision, and model-based control, with particular interest in systems where explicit geometric or dynamical structure is combined with learning where needed.
 
 ## Coupled Deblurring and 3D Reconstruction from Image Sequences
