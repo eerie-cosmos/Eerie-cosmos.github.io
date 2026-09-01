@@ -31,13 +31,8 @@ The work developed and evaluated a reconstruction pipeline that linked optical i
 ### Outcome
 The method improved the areal point density and spatial resolution of the reconstructed 3D point clouds relative to the initial reconstruction, showing how image degradation directly affects downstream geometric representation quality.
 
-### Why it matters
+### Research relevance
 This project is representative of a broader research interest in physically grounded perception: understanding how sensing limitations propagate into later geometric, spatial, and robotic decisions.
-
-### Artifacts
-- Before/after reconstruction figures
-- Representative image restoration results
-- Thesis summary document
 
 ### Code and data
 Source code is not publicly released at present. This page documents the scientific motivation, methodology, and representative outcomes of the work.
@@ -69,13 +64,8 @@ The work involved building and refining a 3D reconstruction workflow based on ca
 ### Outcome
 The project produced usable terrain reconstructions and demonstrated the link between image-based geometry, spatial representation, and downstream interpretation.
 
-### Why it matters
+### Research relevance
 This project extends the same research thread from microscopic reconstruction to terrain-scale geometric modeling and mapping-related representation.
-
-### Artifacts
-- Terrain reconstruction screenshots
-- Point-cloud alignment figures
-- VR environment screenshots and demo video
 
 ### Code and data
 Project code is not publicly released. This page provides a summary of the methods, workflow, and visual outcomes.
@@ -106,14 +96,8 @@ The work included forward and inverse kinematics, joint-trajectory generation, Z
 ### Outcome
 The project established a complete articulated-control workflow and provided strong foundations in embodiment-aware robot modeling and locomotion control.
 
-### Why it matters
+### Research relevance
 It connects perception-oriented work with full-body robotic control and supports later interests in locomotion, planning, and environment-aware robot behavior.
-
-### Artifacts
-- Robot images or CAD views
-- Gait-planning plots
-- Control diagrams
-- Simulation screenshots
 
 ### Code and data
 Project source code is not publicly released. A concise technical summary and visual documentation are provided instead.
@@ -144,13 +128,8 @@ The work included omnidirectional wheel modeling, multi-sensor integration using
 ### Outcome
 The project provided practical experience with noisy sensing, feedback loops, actuator control, and full-system embedded robotics.
 
-### Why it matters
+### Research relevance
 It demonstrates hands-on understanding of how robotic perception, control, and hardware interact beyond simulation-only environments.
-
-### Artifacts
-- Robot photographs
-- System block diagrams
-- Sensor and control architecture sketches
 
 ### Code and data
 Public code is not currently provided. The page emphasizes the platform architecture, sensing chain, and control logic.
@@ -181,13 +160,8 @@ The work involved numerical inverse kinematics, task-space and joint-space reaso
 ### Outcome
 The project strengthened manipulation-oriented systems knowledge and practical familiarity with ROS-based robot control workflows.
 
-### Why it matters
+### Research relevance
 It supports later work in manipulation, planning, and robot-system integration.
-
-### Artifacts
-- RViz/Gazebo screenshots
-- Trajectory plots
-- Short implementation summary
 
 ### Code and data
 This was a graded academic project. Representative documentation is presented here instead of a full public code release.
