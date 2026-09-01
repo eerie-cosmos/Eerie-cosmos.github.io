@@ -8,6 +8,6 @@ permalink: /cv/
 
 A current academic CV is available below.
 
-- [Download CV (PDF)](Assets/CV.pdf)
+- [Download CV (PDF)](./Assets/CV.pdf)
 
 Selected additional project and thesis materials may be linked from the individual project pages where appropriate.
