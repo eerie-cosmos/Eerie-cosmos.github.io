@@ -27,19 +27,19 @@ Structural verification was performed through SolidWorks finite-element analysis
 
 ## Selected visuals
 
-![Fabricated lower-body prototype](assets/prototype-lowerbody.png)
+![Fabricated lower-body prototype](Assets/Prototype-lowerbody.png)
 
 *Fabricated lower-body humanoid prototype developed as a modular bipedal platform for gait modelling and simulation-based evaluation.*
 
-![CAD design, front and side views](assets/Final-design.png)
+![CAD design, front and side views](Assets/Final-design.png)
 
 *Final humanoid design showing the embodied platform used for kinematic modelling, actuator allocation, and gait-planning studies.*
 
-![MATLAB control block diagram](assets/gait-control-pipeline.png)
+![MATLAB control block diagram](Assets/Gait-control-pipeline.png)
 
 *Control and simulation workflow linking ZMP-based planning, linear inverted-pendulum modelling, stepping logic, and inverse kinematics for bipedal gait generation.*
 
-![Simscape walking simulation](assets/Simscape-walking.png)
+![Simscape walking simulation](Assets/Simscape-walking.png)
 
 *Simscape Multibody model used to evaluate full-body walking behaviour generated from the planned gait pipeline.*
 
