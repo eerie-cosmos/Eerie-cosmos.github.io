@@ -11,31 +11,15 @@ permalink: /projects/
 **Institution:** TU Dortmund University  
 **Project type:** Master’s thesis
 
-### Research question
-How can spatially varying image blur in microscopic imagery be modeled and compensated for in a physically grounded manner so that downstream 3D reconstruction becomes denser, more complete and spatially informative?
+This thesis investigated how spatially varying defocus blur in microscopic image sequences can be modelled and compensated in a physically grounded manner to improve downstream 3D reconstruction. The work was motivated by close-range microscopic imagery of lunar regolith simulant acquired with the CAM-M camera during rover-related ground testing, where shallow depth of field degraded feature correspondence and reduced the density and completeness of bundle-adjustment-based reconstruction.
 
-### Context
-The thesis addressed image sequences acquired using the CAM-M microscopic camera of lunar regolith simulant during a lunar rover-related ground testing. In such close-range imaging of non-flat regolith surfaces, shallow depth of field causes some regions to appear sharp and others blurred. This affects feature matching and reduces the quality and density of the resulting 3D reconstruction based on bundle adjustment.
+The developed pipeline explicitly coupled optical image formation with geometric reconstruction rather than treating restoration and 3D recovery as independent stages. It estimated a scene plane of sharpness, modelled defocus through the circle of confusion, derived a spatially varying point spread function, and applied location-dependent deconvolution using Wiener and Richardson–Lucy methods before repeating the reconstruction step on the restored imagery.
 
-### Contribution
-The work developed and evaluated a reconstruction pipeline that linked optical image formation model and geometric reconstruction rather than treating them as separate stages. The method estimated a plane of sharpness in the scene, inferred defocus blur through the circle of confusion, translated that into a location-dependent point spread function, and then applied spatially varying deconvolution using Wiener and Richardson–Lucy approaches before repeating the reconstruction step with the resulting restored images.
+This physically informed treatment of image degradation led to denser and more spatially informative 3D point clouds than the initial reconstruction, demonstrating how sensing limitations propagate into later geometric representation quality. More broadly, the project reflects a continuing research interest in physically grounded perception, particularly in settings where optical effects, scene geometry, and reconstruction performance are tightly coupled.
 
-### Methods and tools
-- Optical defocus modeling based on real-aperture camera model
-- Sharp areas estimation and plane-of-focus reasoning
-- Spatially varying point spread function modeling
-- Wiener filtering and Richardson–Lucy deconvolution
-- Python-supported SfM/MVS reconstruction in Agisoft Metashape Pro
-- Geometric comparison and point cloud density maps analysis
+**Methods and tools:** Optical defocus modelling, plane-of-focus estimation, spatially varying PSF modelling, Wiener filtering, Richardson–Lucy deconvolution, Python-supported SfM/MVS in Agisoft Metashape Pro, geometric comparison, and point-cloud density-map analysis.
 
-### Outcome
-The method improved the areal point density and spatial resolution of the reconstructed 3D point clouds relative to the initial reconstruction, showing how image degradation directly affects downstream geometric representation quality.
-
-### Research relevance
-This project is representative of a broader research interest in physically grounded perception: understanding how sensing limitations propagate into later geometric, spatial, and robotic decisions.
-
-### Code and data
-Source code is not publicly released at present. This page documents the scientific motivation, methodology, and representative outcomes of the work.
+**Code and data:** Source code is not publicly released at present. This page documents the scientific motivation, methodology, and representative outcomes of the work.
 
 ---
 
@@ -44,31 +28,15 @@ Source code is not publicly released at present. This page documents the scienti
 **Institution:** TU Dortmund University  
 **Project type:** Research-oriented student group project
 
-### Research question
-How can multi-view rover imagery be turned into geometrically meaningful 3D terrain models that support analysis, inspection, and spatial interpretation?
+This project examined how multi-view rover imagery can be transformed into geometrically meaningful 3D terrain models for analysis, inspection, and spatial interpretation. Using image data acquired by NASA’s Perseverance rover, the work addressed planetary-surface reconstruction under realistic geometric and imaging constraints, with emphasis on the relationship between image formation, camera geometry, and downstream spatial representation.
 
-### Context
-The project used image data acquired by NASA’s Perseverance rover to reconstruct planetary terrain surfaces under realistic imaging and geometric constraints.
+The reconstruction workflow combined calibrated and uncalibrated stereo vision, structure from motion, bundle adjustment, multi-view stereo, dense point-cloud generation, registration, and geometric refinement. The resulting terrain models were subsequently integrated into a Unity-based virtual-reality environment to support interactive inspection and interpretation of reconstructed planetary scenes.
 
-### Contribution
-The work involved building and refining a 3D reconstruction workflow based on calibrated and uncalibrated stereo vision, structure from motion, multi-view stereo, bundle adjustment, dense point-cloud generation, geometric alignment, and refinement. The resulting terrain models were then integrated into a Unity virtual-reality environment for interactive spatial inspection.
+Beyond the immediate reconstruction outcome, the project extended an ongoing research thread from fine-scale microscopic reconstruction to terrain-scale geometric modelling and mapping-oriented representation. It strengthened my interest in perception pipelines that combine image-based inference with explicit geometric structure, particularly where 3D models serve as intermediate representations for later robotic reasoning, navigation, or interaction.
 
-### Methods and tools
-- Stereo geometry
-- Structure from motion
-- Bundle adjustment
-- Dense point-cloud generation
-- Point cloud registration and refinement
-- MATLAB Agisoft Metashape Pro, OpenCV, CloudCompare, MeshLab, Unity
+**Methods and tools:** Stereo geometry, structure from motion, bundle adjustment, dense reconstruction, point-cloud registration and refinement, MATLAB, Agisoft Metashape Pro, OpenCV, CloudCompare, MeshLab, and Unity.
 
-### Outcome
-The project produced usable terrain reconstructions and demonstrated the link between image-based geometry, spatial representation, and downstream interpretation.
-
-### Research relevance
-This project extends the same research thread from microscopic reconstruction to terrain-scale geometric modeling and mapping-related representation.
-
-### Code and data
-Project code is not publicly released. This page provides a summary of the methods, workflow, and visual outcomes.
+**Code and data:** Project code is not publicly released. This page provides a summary of the workflow, methods, and representative visual outcomes.
 
 ---
 
@@ -77,30 +45,15 @@ Project code is not publicly released. This page provides a summary of the metho
 **Institution:** AASTMT  
 **Project type:** Bachelor’s thesis
 
-### Research question
-How can a teen-sized humanoid platform be modeled and controlled to produce coordinated, dynamically informed biped legged locomotion?
+This thesis focused on the modelling and control of a RoboCup teen-sized humanoid robot, with emphasis on articulated-body kinematics, gait generation, and stability-aware locomotion. The project originated from an early interest in human-like embodied systems for operation in environments that are hazardous, difficult to access, or otherwise constrained for direct human presence, and it remains foundational to my later research interests in robotics perception, control, and embodied intelligence.
 
-### Context
-The project focused on the modeling and control of a RoboCup teen-sized humanoid robot, with attention to articulated-body kinematics, gait generation, motion planning, and stability-aware control.
+The work included forward and inverse kinematics, joint-trajectory generation, ZMP-based gait planning, state-space control design, model-predictive-control concepts, multibody simulation, and a ROS/Gazebo integration path using MATLAB’s robotics and ROS toolboxes. Particular attention was given to physically meaningful modelling choices, including embodiment, balance, support constraints, and the relationship between kinematic structure and dynamically informed walking behaviour.
 
-### Contribution
-The work included forward and inverse kinematics, joint-trajectory generation, ZMP-based gait generation, state-space control design, model-predictive control concepts, multibody simulation, and ROS/Gazebo integration path with MATLAB’s ROS toolbox. Final hardware validation was limited by pandemic laboratory restrictions, whereas the modeling and control workflow was fully developed.
+Although final hardware validation was limited by pandemic-related laboratory restrictions, the modelling, control, and simulation workflow was developed in full. The project established a strong foundation in embodiment-aware robot design and locomotion control, and it continues to inform my interest in systems where geometric or dynamical structure provides the backbone and learning-based components refine the aspects that are difficult to specify from first principles.
 
-### Methods and tools
-- Forward and inverse kinematics
-- Joint-trajectory generation
-- ZMP-based gait planning
-- State-space and Model-predictive control
-- MATLAB, Simulink, Simscape Multibodies, Robotics Toolbox, ROS Toolbox, ROS/Gazebo
+**Methods and tools:** Forward and inverse kinematics, joint-trajectory generation, ZMP-based gait planning, state-space control, model-predictive control, MATLAB, Simulink, Simscape Multibody, Robotics Toolbox, ROS Toolbox, and ROS/Gazebo.
 
-### Outcome
-The project established a complete articulated-control workflow and provided strong foundations in embodiment-aware robot modeling and locomotion control.
-
-### Research relevance
-It connects perception-oriented work with full-body robotic control and supports later interests in locomotion, planning, and environment-aware robot behavior.
-
-### Code and data
-Project source code is not publicly released. A concise technical summary and visual documentation are provided instead.
+**Code and data:** Project source code is not publicly released. A concise technical summary and visual documentation are provided instead.
 
 ---
 
@@ -109,30 +62,15 @@ Project source code is not publicly released. A concise technical summary and vi
 **Institution:** AASTMT  
 **Project type:** Robotics applied systems project
 
-### Research question
-How can an omnidirectional wheeled robot integrate heterogeneous onboard sensing and actuation into a responsive closed-loop control system?
+This project addressed the integration of heterogeneous sensing, actuation, and embedded communication within an omnidirectional mobile robotic platform. The central objective was to build a responsive closed-loop system in which perception, control, and hardware interfacing were treated as parts of a single robotic architecture rather than as isolated subsystems.
 
-### Context
-This project involved an omniwheel RoboCup robot operating with multiple sensing and actuation channels in a real embedded-robotics setting.
+The work involved omnidirectional wheel modelling, motor actuation through PWM control, and the integration of encoder, ultrasonic, infrared, magnetic, and camera signals in a real embedded-robotics setting. It also required communication and systems interfacing through channels such as UART and SPI, alongside practical handling of noisy measurements, feedback loops, and low-level control behaviour.
 
-### Contribution
-The work included omnidirectional wheel modeling, multi-sensor integration using encoder, ultrasonic, infrared, magnetic, and camera signals, motor control via PWM, and embedded communication through interfaces such as UART and SPI.
+This project was especially formative in developing intuition for how robotic behaviour emerges from the interaction between sensing constraints, actuation limits, and embedded implementation details. In retrospect, it forms an early systems-level counterpart to my later work in perception and estimation, and it remains relevant to research directions that require tight coupling between real-world sensing, control, and task execution.
 
-### Methods and tools
-- Mobile-robot kinematics and dynamics
-- Closed-loop control
-- Multi-sensor fusion at system level
-- PWM motor actuation
-- Embedded communication and integration
+**Methods and tools:** Mobile-robot kinematics and dynamics, closed-loop control, multi-sensor system integration, PWM motor actuation, embedded communication, and platform-level robotics implementation.
 
-### Outcome
-The project provided practical experience with noisy sensing, feedback loops, actuator control, and full-system embedded robotics.
-
-### Research relevance
-It demonstrates hands-on understanding of how robotic perception, control, and hardware interact beyond simulation-only environments.
-
-### Code and data
-Public code is not currently provided. The page emphasizes the platform architecture, sensing chain, and control logic.
+**Code and data:** Public code is not currently provided. The page emphasizes the platform architecture, sensing chain, and control logic.
 
 ---
 
@@ -141,27 +79,12 @@ Public code is not currently provided. The page emphasizes the platform architec
 **Institution:** TU Dortmund University  
 **Project type:** Master’s robotics course project
 
-### Research question
-How can a manipulator’s motion be formulated and executed in a ROS-based simulation and control framework using inverse kinematics and trajectory control?
+This project focused on model-based manipulator motion generation and execution for the Universal Robot UR10 within a ROS-based simulation and control environment. It combined inverse kinematics, task-space to joint-space transformation, and controller-compatible trajectory execution in a workflow spanning MATLAB, Gazebo, RViz, and ROS communication interfaces.
 
-### Context
-The project focused on simulation and control of the Universal Robot UR10 within ROS, Gazebo, RViz, and MATLAB-based interfaces.
+The implementation involved numerical inverse kinematics, point-to-point and multi-waypoint trajectory generation, ROS publishers and subscribers, and action-based controller execution with feedback and monitoring. A key aspect of the project was the translation of end-effector pose objectives into feasible joint-space motion while maintaining a clear connection between kinematic reasoning, motion specification, and executable control commands.
 
-### Contribution
-The work involved numerical inverse kinematics, task-space and joint-space reasoning, point-to-point and waypoint trajectory generation, ROS publishers and subscribers, and action-based trajectory execution through controller interfaces.
+The project strengthened my manipulation-oriented systems background and reinforced a research direction centered on physically grounded perception and estimation for robotics, especially in settings where geometric or dynamical models define the core structure and learned components can later be incorporated in a principled way. It also provided a useful bridge between perception-oriented interests and action-oriented robot control.
 
-### Methods and tools
-- Numerical inverse kinematics
-- Joint-space trajectory generation
-- Gazebo simulation
-- RViz visualization
-- ROS topics, actions, feedback, and controller interfaces
+**Methods and tools:** Numerical inverse kinematics, joint-space trajectory generation, Gazebo simulation, RViz visualization, ROS topics, ROS actions, feedback monitoring, and controller interfaces.
 
-### Outcome
-The project strengthened manipulation-oriented systems knowledge and practical familiarity with ROS-based robot control workflows.
-
-### Research relevance
-It supports later work in manipulation, planning, and robot-system integration.
-
-### Code and data
-This was a graded academic project. Representative documentation is presented here instead of a full public code release.
+**Code and data:** This was a graded academic project. Representative documentation is presented here instead of a full public code release.
