@@ -12,13 +12,14 @@ This website presents selected academic and technical work spanning physically g
 
 ## Research focus
 
-Current interests include:
+Current research interests lie at the intersection of physically grounded perception, geometric modelling, and embodied robotics. Particular emphasis is placed on hybrid perception systems in which explicit geometric, photometric, and dynamical models provide an interpretable structural foundation, while learning-based components address variability, uncertainty, and phenomena that cannot be specified reliably from first principles.
 
 - Physically grounded perception and image formation
-- 3D computer vision and geometric reconstruction
-- Mapping and spatial representation for robotics
+- 3D computer vision, geometric reconstruction and scene understanding
+- Mapping, spatial representation, and uncertainty-aware estimation for robotics
+- Hybrid model-based and learning-based perception methods
 - Locomotion, manipulation, and embodied robot control
-- Robust perception pipelines for real-world robotic systems
+- Robust perception and decision pipelines for real-world robotic systems
 
 ## Selected projects
 
