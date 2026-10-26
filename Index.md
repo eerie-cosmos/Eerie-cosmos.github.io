@@ -13,7 +13,7 @@ My work focuses on Physically-grounded visual perception, modeling how an image 
 
 My research interest lies at the intersection of robotic perception, geometric reconstruction, and robot control. In particular, model-based and learning-based robotic perception methods.
 
-[CV](https://eerie-cosmos.github.io/Assets/CV.pd) /| [Research portfolio (PDF)](https://eerie-cosmos.github.io/Assets/docs/Research-portfolio.pdf) /| [GitHub](https://github.com/eerie-cosmos) /| Emails: mena0karam00@gmail.com and mena.karam@tu-dortmund.de
+[CV](https://eerie-cosmos.github.io/Assets/CV.pd) | [Research portfolio (PDF)](https://eerie-cosmos.github.io/Assets/docs/Research-portfolio.pdf) | [GitHub](https://github.com/eerie-cosmos) | Emails: mena0karam00@gmail.com and mena.karam@tu-dortmund.de
 
 ---
 
@@ -50,10 +50,7 @@ status: in development
 
 ---
 
-[All projects](/projects/) 
-[Methods and results](/methods/)
-[CV](/cv/)
-[Contact](/contact/)
+[All projects](/projects/) | [Methods and results](/methods/) | [CV](/cv/) | [Contact](/contact/)
 
 
 
