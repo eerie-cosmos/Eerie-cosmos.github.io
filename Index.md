@@ -51,7 +51,7 @@ status: in development
 ---
 
 [All projects](/projects/) 
-[Methods and results(/methods/)
+[Methods and results](/methods/)
 [CV](/cv/)
 [Contact](/contact/)
 
