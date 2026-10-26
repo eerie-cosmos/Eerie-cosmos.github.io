@@ -30,7 +30,7 @@ The 3D model informs us how far each patch of the regolith surface was from the 
 
 ## Results
 
-![Dense clouds and density maps before and after deblurring, Data set 1 and 2](/Assets/master-thesis/results-density/jpg)
+![Dense clouds and density maps before and after deblurring, Data set 1 and 2](/Assets/master-thesis/results-density.jpg)
 
 Figure 2. Density maps are normalized after the ICP alignment for efficient comparison.
 
