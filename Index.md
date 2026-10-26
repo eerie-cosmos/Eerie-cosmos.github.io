@@ -13,7 +13,7 @@ My work focuses on Physically-grounded visual perception, modeling how an image 
 
 My research interest lies at the intersection of robotic perception, geometric reconstruction, and robot control. In particular, model-based and learning-based robotic perception methods.
 
-[CV](https://eerie-cosmos.github.io/Assets/CV.pd) | [Research portfolio (PDF)](https://eerie-cosmos.github.io/Assets/docs/Research-portfolio.pdf) | [GitHub](https://github.com/eerie-cosmos) | Emails: mena0karam00@gmail.com and mena.karam@tu-dortmund.de
+[CV](https://eerie-cosmos.github.io/Assets/CV.pd)  [Research portfolio (PDF)](https://eerie-cosmos.github.io/Assets/docs/Research-portfolio.pdf)  [GitHub](https://github.com/eerie-cosmos)  Emails: mena0karam00@gmail.com and mena.karam@tu-dortmund.de
 
 ---
 
@@ -25,7 +25,7 @@ Master’s thesis, TU Dortmund, 2025 | supervisor Prof. Dr. Christian Wöhler
 ![Defocused image, plane of focus alignment, CoC values visualized](/Assets/master-thesis/thumb.jpg)
 
 The microscopic camera CAM-M, mounted on the lunar rover Rashid-1 for close up image acquisition of the lunar regolith surface, has no refocus mechanism, resulting in a shallow depth of field that produce image with defocus blur and in turn reduced number of feature correspondences. The 3D reconstruction of a sequence of those overlapping defocused images can provide how much each pixel have deviated from the plane of focus which can be used to estimate blur and restore images sharpness. Images are deblurred using this geometry-derived, spatially varying blur model in Wiener filter and Richardson-Lucy deconvolution producing a 3D reconstruction with a significantly increased areal point density and thus a much higher spatial resolution than the initial 3D reconstruction. The developed method was successfully applied to CAM-M image sequences taken during a lunar rover test drive at the MBRSC.
-**[Project page(/master-thesis/)** | [1-page abstract (PDF)](/Assets/docs/Master-thesis-abstrac—1p.pdf) | [2-page summary (PDF)](/Assets/docs/Master-thesis-summary-2p.pdf)
+**[Project page](/master-thesis/)** | [1-page abstract (PDF)](/Assets/docs/Master-thesis-abstrac—1p.pdf) | [2-page summary (PDF)](/Assets/docs/Master-thesis-summary-2p.pdf)
 
 ### 3D Models of Planetary Surfaces in Virtual Reality
 M.Sc. project group, TU Dortmund, 2022, Role: rover-image photogrammetry pipeline
@@ -50,7 +50,10 @@ status: in development
 
 ---
 
-[All projects](/projects/) | [Methods and results(/methods/) | [CV](/cv/) | [Contact](/contact/)
+[All projects](/projects/) 
+[Methods and results(/methods/)
+[CV](/cv/)
+[Contact](/contact/)
 
 
 
