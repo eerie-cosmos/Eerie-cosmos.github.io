@@ -1,4 +1,9 @@
 title: Mena Karam
-description: Research portfolio in robotic perception, 3D computer vision, reconstruction, Humanoid robots, and robot manipulation and control
+description: Robotic Perception and 3D computer vision. Physically-grounded visual perception, 3D reconstruction, humanoid robots.
 markdown: kramdown
 theme: minima
+header_pages:
+- Projects.md
+- Methods.md
+- Cv.md
+- Contact.me
