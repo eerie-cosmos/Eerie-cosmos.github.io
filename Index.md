@@ -7,6 +7,7 @@ permalink: /
 # Mena Karam
 
 **Robotic perception and 3D computer vision** 
+
 M.Sc. Automation and Robotics, TU Dortmund (grade 1.4) | B.Sc. Mechanical Engineering, AASTMT (grade 1.0) | Dortmund, Germany
 
 My work focuses on Physically-grounded visual perception, modeling how an image is formed (optics, defocus and motion blur, sensor limits) and integrating such a model in 3D reconstruction and robotic perception. I evaluate methods by the geometric downstream results rather than the visual quality of the images.
