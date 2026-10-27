@@ -1,6 +1,6 @@
 ---
 layout: page
-title: “Coupled Deblurring and 3D Reconstruction from Image Sequences”
+title: Coupled Deblurring and 3D Reconstruction from Image Sequence
 permalin: /master-thesis/
 ---
 
@@ -32,7 +32,7 @@ The 3D model informs us how far each patch of the regolith surface was from the 
 
 ![Dense clouds and density maps before and after deblurring, Data set 1 and 2](/Assets/master-thesis/results-density.jpg)
 
-Figure 2. Density maps are normalized after the ICP alignment for efficient comparison.
+Figure 2. Effect on 3D reconstruction. Top: Data set 1 with Richardson-Lucy (5 iterations). Bottom: Data set 2 with the Wiener filter. Columns 1-2: dense point clouds in the X-Y view. Columns 3-4: normalized point density on a common scale after ICP alignment.
 
 - Deblurred images gave **denser clouds with fewer data gaps** in both data sets, a significantly **increased areal point density** and thus a much **higher spatial resolution** than the initial 3D reconstruction.
 - **Method with highest performance and best results is dependent on the data**: Richardson-Lucy performed best on Data set 1, while Wiener filter was densest on Data set 2 but contained small gaps in one corner. However Wiener filer was the most consistent of the two.
