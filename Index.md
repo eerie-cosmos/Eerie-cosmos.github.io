@@ -14,7 +14,7 @@ My work focuses on Physically-grounded visual perception, modeling how an image 
 
 My research interest lies at the intersection of robotic perception, geometric reconstruction, and robot control. In particular, model-based and learning-based robotic perception methods.
 
-[CV](https://eerie-cosmos.github.io/Assets/CV.pd) • [Research portfolio (PDF)](https://eerie-cosmos.github.io/Assets/docs/Research-portfolio.pdf) • [GitHub](https://github.com/eerie-cosmos) • Emails: mena0karam00@gmail.com and mena.karam@tu-dortmund.de
+[CV](https://eerie-cosmos.github.io/Assets/CV.pd) • [GitHub](https://github.com/eerie-cosmos) • Emails: mena0karam00@gmail.com and mena.karam@tu-dortmund.de
 
 ---
 
@@ -49,9 +49,16 @@ Forward and inverse kinematics, ZMP-based gait generation with model-predictive 
 Address the research question of whether a robot view planner that models motion and defocus blur reach a target 3D accuracy faster than standard next-best-view planning. Incorporates: Calibration, SfM and bundle adjustment with covariance, implemented from first principles and tested against ground truth in MuJoCo.
 status: in development
 
+## Earlier engineering projects
+
+- **ROS-based manipulator motion control (TU Dortmund, 2021, course project).** Inverse kinematics and joint-space trajectories for a simulated UR10 in MATLAB, ROS, Gazebo and RViz, executed through ROS action clients with feedback monitoring.
+- **Quadruped robot (AASTMT, 2018).** Leg kinematics in MATLAB for a statically stable creep gait, rigid-body statics, SolidWorks stress analysis and servo control for a prototype.
+- **RoboCup omniwheel soccer robot (AASTMT, 2019).** Holonomic kinematics, multi-sensor ball tracking (ultrasonic, IR, LDR, magnetometer, encoders, camera) and encoder-feedback PWM motor control on an embedded platform.
+- **Search-and-rescue autonomous robot (University of Central Lancashire training, Preston, 2018; best group project award).** Vision with histogram analysis, ROI extraction and HSV/RGB filtering, with NI myRIO I/O and PWM control in LabVIEW.
+
 ---
 
-[All projects](/projects/) | [Methods and results](/methods/) | [CV](/cv/) | [Contact](/contact/)
+[CV](/cv/) | [Contact](/contact/)
 
 
 
