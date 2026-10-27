@@ -8,6 +8,9 @@ M.Sc. project group • TU Dortmund, 2022 • Role: rover-image photogrammetry p
 
 The team built a workflow that placed orbital elevation models (stereo plus sharp from shading) and rover-based 3D rock models reconstruction of Jezero crater in one virtual reality scene. My role was the Uncalibrated photogrammetry and meshing pipeline that reconstructed raw Perseverance images of the rock “Cheiron” and other Sols into a textured model light enough for VR integration. 
 
+[Video of the Unity VR run with the 3D models](https://bv.etit.tu-dortmund.de/details/3d-modelle-in-virtual-reality-25206/)
+
+
 ![My pipeline, photo alignment, dense cloud, textured mesh](/Assets/mars-vr/pipeline.jpg)
 
 Figure 1. (1) My pipeline across Metashape Pro, CloudCompare and MeshLab. (2) Uncalibrated alignment: estimated camera poses, sparse cloud and manual markers. (3) Stitche dense cloud of the Cheiron rock (sol 238). (4) Decimate, textured mesh for Unity VR. Source images: [NASA Mars 2020 raw images](https://mars.nasa.gov/mars2020/multimedia/raw-images/)(NASA/JPL-Caltech).
