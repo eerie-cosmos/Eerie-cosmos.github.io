@@ -1,12 +1,10 @@
 ---
 layout: page
-title: “RoboCup Major Teen-Size Humanoid Robot”
+title: RoboCup Major Teen-Size Humanoid Robot
 permalink: /Humanoid-robot-project/
 ---
 
-Bachelor’s thesis | B.Sc. Mechanical Engineering, AASTMT, 2020 | team project | Role: project lead | grade 1.0
-
-[1-page summary (PDF)](/Assets/docs/Bachelor-thesis-summary/pdf) | thesis available upon request
+Bachelor’s thesis • B.Sc. Mechanical Engineering, AASTMT, 2020 • team project • Role: project lead • grade 1.0 • Thesis available on request
 
 Our team redesigned a teen-sized humanoid, in which I assisted with the FEA, modelled its kinematics and dynamics, and validated the full robot walk in physics simulation with a ZMP-based model predictive controller. The lower body prototype was built and assembles however COVID-19 restrictions hindered the hardware walking tests.
 
