@@ -58,7 +58,7 @@ status: in development
 
 ---
 
-[CV](/cv/) | [Contact](/contact/)
+[CV](/cv/) • [Contact](/contact/)
 
 
 
