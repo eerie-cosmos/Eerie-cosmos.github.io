@@ -6,7 +6,7 @@ permalin: /master-thesis/
 
 Master’s thesis • M.Sc. Automation and Robotics, TU Dortmund, 2025 • supervisor Prof. Dr. Christian Wöhler • grade 1.0
 
-[2-page summary (PDF)](/Assets/docs/Master-thesis-summary-2p.pdf) • Full thesis on request
+[2-page summary (PDF)](/Assets/master-thesis/MT_summary_2p.pdf) • Full thesis on request
 
 ![Method overview: defocused input image, sharp regions, plane of focus fitted to 3D point cloud, CoC radius per pixel, spatially varying PSFs density before and after](/Assets/master-thesis/method-overview.png)
 
