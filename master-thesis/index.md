@@ -10,7 +10,7 @@ Master’s thesis • M.Sc. Automation and Robotics, TU Dortmund, 2025 • super
 
 ![Method overview: defocused input image, sharp regions, plane of focus fitted to 3D point cloud, CoC radius per pixel, spatially varying PSFs density before and after](/Assets/master-thesis/method-overview.png)
 
-Figure 1. Method overview (Data set 1, image 2).
+Figure 1. Method overview (Data set 1, image 2). (1) Defocused input image. (2) Sharp region (green) from LoG and Otsu thresholding. (3) SfM-MVS point cloud with fitted plane of focus (green), optical axis (blue) and camera pose (cyan). (4) Per-pixel circle of confusion r_b image array. (5) Sampled local Gaussian PSFs: larger and brighter spots indicate stronger local blur. (6) Point density map before (left) and after (right) Richardson-Lucy deblurring on a common scale. 
 
 ## Problem
 
